@@ -160,7 +160,12 @@ public class CarrefourServlet extends HttpServlet {
                 dispatcher.forward(request, response);
 
                 break;}
-                    
+                case "/":
+                {
+                RequestDispatcher dispatcher = request.getRequestDispatcher("/MainPage.jsp");
+                dispatcher.forward(request, response);
+
+                break;}    
                 default:{
 //                    List<Departement> L = daodep.Tous();
 //                    request.setAttribute("Deps", L);

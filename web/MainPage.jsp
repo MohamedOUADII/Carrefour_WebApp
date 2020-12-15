@@ -1,10 +1,9 @@
 <%-- 
     Document   : index
-    Created on : 14 dÃ©c. 2020, 17:41:30
+    Created on : 14 déc. 2020, 17:41:30
     Author     : Mohamed
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
